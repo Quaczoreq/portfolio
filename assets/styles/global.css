@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+
+/* color palette */
+:root{
+    --primary:rgb(182, 176, 189);
+    --secondary:rgb(15, 39, 71);
+    --teritary:rgb(87, 94, 130);
+    --quaternary:rgb(230, 225, 237);
+
+    
+}
