@@ -15,6 +15,6 @@ body{
     --secondary:rgb(15, 39, 71);
     --teritary:rgb(87, 94, 130);
     --quaternary:rgb(230, 225, 237);
-
+    --txtfont: Verdana, Geneva, Tahoma, sans-serif;
     
 }
