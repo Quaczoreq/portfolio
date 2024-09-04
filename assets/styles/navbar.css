@@ -28,12 +28,13 @@ body{
     font-weight: bold;
 }
 a:hover {
-    color: rgb(201, 201, 218);
+    color: var(--ahover);
     background-color: var(--teritary);
     border-radius: 12px;
     transition: 0.25s;
     border-color: var(--primary);
-    text-transform: uppercase;
+    text-transform:uppercase;
+
 }
 li :active {
     color: rgb(201, 201, 218);
@@ -45,33 +46,5 @@ li :active {
     background-color: var(--teritary);
     border-radius: 12px;
 }
-
 /* content page text char*/
-.main-txt {
-    width: 80%;
-    font-family: var(--txtfont);
-    color: var(--secondary);
-    padding-top: 3%;
-    padding-inline: 30%;
-}
-p {
-   width: 60%; 
-   text-align: center;
-}
-.heading {
-    font-weight: bold;
-    font-family: var(--txtfont);
-    padding-bottom: 2%;
-    
-}
-form {
-    width: 60%;
-    align-items: center;
-    padding-inline: 20%;
-    padding-top: 5%;
-    font-family: var(--txtfont);
-    font-size: 14px;
-}
-img {
-    opacity: 0.4;
-}
+
