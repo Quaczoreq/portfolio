@@ -28,7 +28,7 @@ form {
     width: 60%;
     align-items: center;
     padding-inline: 20%;
-    padding-top: 5%;
+    padding-top: 10%;
     font-family: var(--txtfont);
     font-size: 14px;
 }
@@ -39,12 +39,28 @@ p {
     width: 60%; 
     text-align: center;
  }
+ p :hover{
+    border: solid;
+    border-color:blueviolet;
+ }
 a {
-    padding: 2%;
+    padding: 5%;
     color: rgb(15, 39, 71);
     text-decoration: none;
     text-transform: lowercase;
+    background-color: var(--secondary);
 }
-a-image{ 
-    size: 3px;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    display: inline;
+    border-radius: 40px;
+    border: solid;
+    border-color: rgb(52, 50, 87);
+}
+.flex-container {
+    align-items: center;
+    display: flex;
 }
