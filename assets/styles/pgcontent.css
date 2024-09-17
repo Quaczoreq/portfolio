@@ -42,6 +42,7 @@ p {
  p :hover{
     border: solid;
     border-color:blueviolet;
+    size: 120%;
  }
 a {
     padding: 5%;
@@ -60,12 +61,14 @@ img {
     border: solid;
     border-color: rgb(52, 50, 87);
 }
+
 .flex-container {
     align-items:center;
     display:flex;
     padding: 2%;
     
 }
+
 .centered {
     position: absolute;
     top: 50%;
