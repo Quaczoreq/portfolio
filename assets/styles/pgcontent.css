@@ -37,7 +37,6 @@ form {
 }
 p {
     width: 60%; 
-    text-align: center;
  }
  p :hover{
     border: solid;
@@ -73,10 +72,9 @@ img {
   
 }
 .flex-container:hover {
-    background: rgb(250, 250, 250);
+    background: rgb(199, 123, 123);
     width: 80%;
     height: 80%;
-    align-items: center;
     transition-property: width, height;
     transition-duration: 5s;
 }
@@ -98,6 +96,7 @@ img {
     border-radius: 12px;
     outline: none;
     transition: 0.4s;
+    
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
