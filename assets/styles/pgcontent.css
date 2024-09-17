@@ -79,10 +79,11 @@ img {
     background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
-    width: 80%;
+    padding: 15px;
+    width: 60%;
     text-align:center;
     border: none;
+    border-radius: 12px;
     outline: none;
     transition: 0.4s;
   }
@@ -99,8 +100,9 @@ img {
     display: none;
     overflow: hidden;
   }
+  
    /* Style the paneltext */
-  .p-panel{
-    text-align: justify;
-    text-align: center;
+  p {
+    text-align:justify;
+    padding: 2%;
   }
