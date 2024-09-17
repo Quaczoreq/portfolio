@@ -65,8 +65,7 @@ img {
 .flex-container {
     align-items:center;
     display:flex;
-    padding: 2%;
-    
+    padding-top: 2%;
 }
 
 .centered {
@@ -81,8 +80,8 @@ img {
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
-    text-align: left;
+    width: 80%;
+    text-align:center;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -95,8 +94,13 @@ img {
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 0 18px;
+    padding: 2%;
     background-color: white;
     display: none;
     overflow: hidden;
+  }
+   /* Style the paneltext */
+  .p-panel{
+    text-align: justify;
+    text-align: center;
   }

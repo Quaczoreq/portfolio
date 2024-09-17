@@ -24,23 +24,35 @@
             </div>
         </div>
     </div>
-    <button>Painting exhibition</button>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
-        <button>mixed media exhibition</button>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
-        <button>sculpture exhibition</button>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
-                    <button>upcoming events</button>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
-                        <button>news and updates</button>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
-                                                
+    <h2 style="color:aliceblue; padding:2%;"> MAIN EVENTS</h2>
+    <button class="accordion">Painting exhibition</button>
+        <div  class="panel">
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
         </div>
+    <button class="accordion">Sculpture exhibition</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
+        </div>
+    <button class="accordion">Mixed media</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
 </body>
 
 </html>

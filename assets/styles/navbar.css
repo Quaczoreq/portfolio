@@ -16,6 +16,7 @@ body{
 .nav-main ul{
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .nav-main li{
     list-style: none;
