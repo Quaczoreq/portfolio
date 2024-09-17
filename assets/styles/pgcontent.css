@@ -60,6 +60,7 @@ img {
     border-radius: 40px;
     border: solid;
     border-color: rgb(52, 50, 87);
+    transition-property: 120%, 120%;
 }
 
 .flex-container {
@@ -67,9 +68,15 @@ img {
     display:flex;
     padding-top: 2%;
     transition: 0.60s;
+  
 }
 .flex-container:hover {
-    background: red;
+    background: rgb(250, 250, 250);
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    transition-property: width, height;
+    transition-duration: 5s;
 }
 .centered {
     position: absolute;
