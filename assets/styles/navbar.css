@@ -16,6 +16,7 @@ body{
 .nav-main ul{
     display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
     
 }
 .nav-main li{
@@ -42,9 +43,8 @@ li :active {
     background-color: var(--teritary);
     border-radius: 12px;
 }
-.active {
-    color: rgb(201, 201, 218);
-    background-color: var(--teritary);
-    border-radius: 12px;
+ .active {
+    background-color: var(--se);
+    border-radius: 8px;
 }
 

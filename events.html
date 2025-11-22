@@ -10,49 +10,54 @@
     
 </head>
 
-<body>
-   <div class="nav-main">
+<body> <!-- Nav bar section--> 
+       <div class="nav-main">
         <div class="nav-link a">
             <div class="hover">
                 <ul>
                     <li><a href="index.html">info</a></li>
                     <li><a href="gallery.html">gallery</a></li>
-                    <li class="active"><a href="events.html">events</a></li>
+                    <li class="active"><a href="events.html">cv</a></li>
                     <li><a href="certifications.html">certifications</a></li>
                     <li><a href="contact.html">contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <h2 style="color:aliceblue; padding:2%;"> MAIN EVENTS</h2>
-    <button class="accordion">Painting exhibition</button>
+    <h2 style="color:aliceblue; padding:2%;"> Curriculum Vitae</h2>
+    <button class="accordion">Personal Details</button>
         <div  class="panel">
             <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
         </div>
 
-    <button class="accordion">Sculpture exhibition</button>
+    <button class="accordion">Education</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
         </div>
-    <button class="accordion">Mixed media</button>
+    <button class="accordion">Courses</button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
         </div>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
+        <button class="accordion">Work history</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus modi nulla voluptas! A, ab ipsam voluptatibus, harum totam esse explicabo cum vero eveniet soluta animi minus, unde aut molestias.</p>
+        </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) 
+                {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                    } else {
+                    panel.style.display = "block";
+                    }
+                });
                 }
-              });
-            }
             </script>
 </body>
 
